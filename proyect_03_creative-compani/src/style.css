@@ -1,0 +1,181 @@
+h1{
+  color: rgb(248, 253, 253);
+}
+
+html, body {
+  overflow: scroll; /* Oculta scroll horizontal y vertical */
+  margin: 0;
+  padding: 0;
+  height: 200vh;
+}
+
+html{
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;  
+  
+}
+
+html, body {
+  overflow-x: hidden; /* Elimina el scroll horizontal */
+}
+
+
+
+/* color principal de toda la  pagina */
+
+body{
+  max-width: 1920px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color:  #515DEF;
+}
+
+
+
+
+/* ruta de nav de mi header */
+
+header {
+  position: absolute;
+  background-color: #515DEF;
+  height: 80px;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente el nav */
+  align-items: center;     /* Centra verticalmente el nav */
+  left:550px;
+}
+
+nav .menu {
+  list-style: none;
+  display: flex;
+  gap: 30px; /* Espacio entre elementos */
+  padding: 0;
+  margin: 0;
+}
+ 
+
+
+/* Tipografias de google fons */
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+
+
+nav ul.menu li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  size: 18px;
+  font-family: "Poppins", sans-serif;
+  transition: color 0.3s;
+}
+
+nav ul.menu a:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+
+
+/* section 1 y section 2 */
+
+section.main2{
+  background-color: white;
+}
+
+section h3{
+  font-weight: 700;
+  color: black;
+}
+
+section.main2 p {
+  font-weight: 400;
+  color: rgb(106, 104, 104);
+}
+
+
+
+
+/* Este es un comentario en CSS todos los parrafos */
+
+p {
+  color: white;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 64px;
+
+}
+
+
+div.derecha {
+  display: flex;
+  justify-content: right; /* mueve el contenido a la derecha */
+  
+}
+
+div.derecha {
+  position: relative;
+  height: 1080px;
+  width: 808px;
+}
+
+.derecha {
+  position: absolute;
+  left: 1112px;
+  bottom: 110px;
+}
+
+div.vida{
+  position: relative;
+}
+
+.vida{
+  position: absolute;
+  left: 10%;
+  top: 20px;
+}
+
+
